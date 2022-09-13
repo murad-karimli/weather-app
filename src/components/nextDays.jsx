@@ -1,8 +1,8 @@
 import React from 'react'
-
+// next day's weather will in here
 function nextDays() {
   return (
-    <div>nextDays</div>
+    <div>nextDaysdsd</div>
   )
 }
 
