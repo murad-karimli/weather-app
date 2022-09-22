@@ -11,7 +11,7 @@ function DarkModeToggle() {
  <>
     <div className='p-4 '>
     <input onChange={toggle} type="checkbox" className={styles.checkbox} id="checkbox"/>
-    <label for="checkbox" className={styles.label}>
+    <label htmlFor="checkbox" className={styles.label}>
       <FaMoon className={styles.famoon}/>
       <IoMdSunny className={styles.fasun}/>
       <div className={styles.ball}/>
